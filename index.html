@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Page Interactions</h1>
+        <p>Hover over the button and the card below to see CSS-only effects.</p>
+    </header>
+
+    <main>
+        <div class="css-container">
+            <button class="styled-button">Hover Me</button>
+            
+            <div class="card">
+                <p>I'm a spinning card!</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="js-container">
+            <h2>JavaScript-Powered Interaction</h2>
+            <div class="box" id="animatedBox"></div>
+            <button id="triggerButton">Animate the Box</button>
+            
+            <div class="info-card">
+                <h3>Function Scope Demo</h3>
+                <p id="scopeResult"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
